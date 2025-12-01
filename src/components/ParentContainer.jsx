@@ -31,7 +31,7 @@ const faqs = [
         <Accordion 
             faqs ={faqs}
             openIdx = {openIndex}
-            onChange = {(i) => setOpenIndex(i===openIndex? null :i)}
+            onChange = {(i) => setOpenIndex(i===openIndex? null :i)} //toggle logic
 
              />
     </div>
